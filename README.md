@@ -12,11 +12,13 @@ Existing styling content is generic and static — blog posts and mood boards th
 
  ## Solution Description
  
-Charm closes the gap between *"I don't know what to wear"* and a complete, shoppable look — in seconds.
+Charm lets you snap a photo of any garment or describe it in text, and an AI stylist instantly generates 2-3 complete outfit suggestions with specific, shoppable items — including complementary tops, shoes, accessories, and outerwear — along with styling notes and product links to buy them. It's a free, instant, personalized fashion advisor in your browser.
  
 **Core features:**
  
 - **Garment-to-outfit generation** — upload a photo of one piece, and Charm builds the rest of the outfit around it (shoes, outerwear, accessories), explaining *why* each piece works (color harmony, texture contrast, occasion appropriateness).
+- **Text-Based Styling** — Describes clothing via text when no photo is available
+Free-Form Fashio
 - **Conversational styling** — no filters or product grids to dig through. Users just ask naturally: *"smart casual ideas,"* *"what goes with mustard yellow?"*, *"I want a green dress for an event."*
 - **My Closet** — a saved wardrobe that lets recommendations get more personalized the more it's used.
 - **Persistent chat history** — past styling sessions are saved, so styling feels like an ongoing relationship with a stylist rather than a one-off search.
