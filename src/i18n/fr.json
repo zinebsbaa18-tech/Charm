@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "closet": "Mon Dressing",
+    "signOut": "Se déconnecter"
+  },
+  "language": {
+    "title": "Bienvenue sur Charm",
+    "subtitle": "Votre assistant de style personnel alimenté par l'IA",
+    "choose": "Choisissez votre langue",
+    "en": "English",
+    "fr": "Français",
+
+    "continue": "Continuer"
+  },
+  "auth": {
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "fullName": "Nom complet",
+    "continueGoogle": "Continuer avec Google",
+    "noAccount": "Pas encore de compte ?",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "register": "Créer un compte",
+    "login": "Se connecter",
+    "forgotPassword": "Mot de passe oublié ?",
+    "orContinueWith": "ou continuer avec",
+    "welcomeBack": "Bon retour",
+    "createAccount": "Créer votre compte",
+    "tagline": "Votre garde-robe, réinventée.",
+    "passwordMismatch": "Les mots de passe ne correspondent pas",
+    "signOutConfirm": "Êtes-vous sûr de vouloir vous déconnecter ?"
+  },
+  "home": {
+    "hero": "Trouvez Votre\nLook Parfait",
+    "heroSub": "Téléchargez une photo de vêtement et laissez Charm créer votre tenue idéale.",
+    "uploadTitle": "Télécharger un Vêtement",
+    "uploadDesc": "Glissez-déposez votre photo ici, ou cliquez pour parcourir",
+    "uploadHint": "Formats acceptés : JPG, PNG, WEBP jusqu'à 10 Mo",
+    "analyzeBtn": "Analyser Mon Style",
+    "recentTitle": "Looks Récents",
+    "noRecent": "Vos looks récents apparaîtront ici",
+    "uploading": "Téléchargement...",
+    "or": "ou"
+  },
+  "analysis": {
+    "loading": "Analyse de votre vêtement...",
+    "step1": "Lecture des couleurs et motifs...",
+    "step2": "Identification du type de vêtement...",
+    "step3": "Création des suggestions de tenues...",
+    "step4": "Ajout des dernières touches..."
+  },
+  "results": {
+    "title": "Votre Rapport de Style",
+    "garmentTitle": "Vêtement Détecté",
+    "suggestionsTitle": "Suggestions de Tenues",
+    "filter": {
+      "all": "Tout",
+      "casual": "Décontracté",
+      "smart": "Smart Casual",
+      "evening": "Soirée"
+    },
+    "saveToCloset": "Sauvegarder",
+    "saved": "Sauvegardé !",
+    "viewDetail": "Voir le Look",
+    "tags": {
+      "color": "Couleur",
+      "type": "Type",
+      "fabric": "Tissu",
+      "season": "Saison"
+    }
+  },
+  "detail": {
+    "title": "Détail de la Tenue",
+    "stylingNotes": "Notes de Style",
+    "occasion": "Occasion",
+    "season": "Saison",
+    "saveToCloset": "Ajouter à Mon Dressing",
+    "saved": "Ajouté au Dressing",
+    "related": "Vous pourriez aussi aimer",
+    "back": "Retour aux Résultats"
+  },
+  "closet": {
+    "title": "Mon Dressing",
+    "subtitle": "Vos looks sauvegardés",
+    "empty": "Votre dressing est vide",
+    "emptyDesc": "Commencez à télécharger des vêtements pour sauvegarder vos looks préférés ici.",
+    "uploadNow": "Télécharger un Vêtement",
+    "remove": "Supprimer",
+    "filter": {
+      "all": "Tous les Looks",
+      "casual": "Décontracté",
+      "smart": "Smart Casual",
+      "evening": "Soirée"
+    },
+    "count": "{{count}} looks sauvegardés"
+  },
+  "errors": {
+    "uploadFailed": "Échec du téléchargement. Veuillez réessayer.",
+    "authFailed": "Échec de l'authentification. Veuillez réessayer.",
+    "saveFailed": "Impossible de sauvegarder. Réessayez.",
+    "networkError": "Erreur réseau. Vérifiez votre connexion."
+  }
+}

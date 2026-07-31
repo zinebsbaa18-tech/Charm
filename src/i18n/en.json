@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Home",
+    "closet": "My Closet",
+    "signOut": "Sign Out"
+  },
+  "language": {
+    "title": "Welcome to Charm",
+    "subtitle": "Your AI-powered personal styling assistant",
+    "choose": "Choose your language",
+    "en": "English",
+    "fr": "Français",
+
+    "continue": "Continue"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "email": "Email address",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "fullName": "Full name",
+    "continueGoogle": "Continue with Google",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "register": "Create account",
+    "login": "Sign in",
+    "forgotPassword": "Forgot password?",
+    "orContinueWith": "or continue with",
+    "welcomeBack": "Welcome back",
+    "createAccount": "Create your account",
+    "tagline": "Your wardrobe, reimagined.",
+    "passwordMismatch": "Passwords do not match",
+    "signOutConfirm": "Are you sure you want to sign out?"
+  },
+  "home": {
+    "hero": "Find Your\nPerfect Look",
+    "heroSub": "Upload a garment photo and let Charm craft your perfect outfit.",
+    "uploadTitle": "Upload a Garment",
+    "uploadDesc": "Drag & drop your photo here, or click to browse",
+    "uploadHint": "Supports JPG, PNG, WEBP up to 10MB",
+    "analyzeBtn": "Analyze My Style",
+    "recentTitle": "Recent Looks",
+    "noRecent": "Your recent looks will appear here",
+    "uploading": "Uploading...",
+    "or": "or"
+  },
+  "analysis": {
+    "loading": "Analyzing your garment...",
+    "step1": "Reading colors & patterns...",
+    "step2": "Identifying garment type...",
+    "step3": "Crafting outfit suggestions...",
+    "step4": "Adding finishing touches..."
+  },
+  "results": {
+    "title": "Your Style Report",
+    "garmentTitle": "Detected Garment",
+    "suggestionsTitle": "Outfit Suggestions",
+    "filter": {
+      "all": "All",
+      "casual": "Casual",
+      "smart": "Smart Casual",
+      "evening": "Evening"
+    },
+    "saveToCloset": "Save to Closet",
+    "saved": "Saved!",
+    "viewDetail": "View Look",
+    "tags": {
+      "color": "Color",
+      "type": "Type",
+      "fabric": "Fabric",
+      "season": "Season"
+    }
+  },
+  "detail": {
+    "title": "Outfit Detail",
+    "stylingNotes": "Styling Notes",
+    "occasion": "Occasion",
+    "season": "Season",
+    "saveToCloset": "Save to My Closet",
+    "saved": "Saved to Closet",
+    "related": "You might also like",
+    "back": "Back to Results"
+  },
+  "closet": {
+    "title": "My Closet",
+    "subtitle": "Your saved looks",
+    "empty": "Your closet is empty",
+    "emptyDesc": "Start uploading garments to save your favourite looks here.",
+    "uploadNow": "Upload a Garment",
+    "remove": "Remove",
+    "filter": {
+      "all": "All Looks",
+      "casual": "Casual",
+      "smart": "Smart Casual",
+      "evening": "Evening"
+    },
+    "count": "{{count}} looks saved"
+  },
+  "errors": {
+    "uploadFailed": "Upload failed. Please try again.",
+    "authFailed": "Authentication failed. Please try again.",
+    "saveFailed": "Could not save to closet. Try again.",
+    "networkError": "Network error. Please check your connection."
+  }
+}

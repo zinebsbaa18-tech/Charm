@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #fbf9f5;
+    color: #1b1c1a;
+    font-family: 'Noto Sans', sans-serif;
+    overflow-x: hidden;
+  }
+
+
+}
+
+@layer components {
+  /* Glass Navigation */
+  .glass-nav {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(251, 249, 245, 0.75);
+    border-bottom: 1px solid rgba(217, 193, 188, 0.3);
+  }
+
+  /* Upload Zone */
+  .upload-zone {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='24' ry='24' stroke='%23d9c1bc' stroke-width='2' stroke-dasharray='12%2c16' stroke-linecap='square'/%3e%3c/svg%3e");
+    transition: all 0.3s ease;
+  }
+
+  .upload-zone.active {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='24' ry='24' stroke='%23924a37' stroke-width='2.5' stroke-dasharray='12%2c16' stroke-linecap='square'/%3e%3c/svg%3e");
+    background-color: rgba(146, 74, 55, 0.03);
+  }
+
+  /* Brand Logo */
+  .brand-logo {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    font-style: italic;
+  }
+
+  /* Outfit Card */
+  .outfit-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .outfit-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 48px -8px rgba(74, 59, 40, 0.12);
+  }
+
+  .outfit-card:hover .card-overlay {
+    opacity: 1;
+  }
+
+  .card-overlay {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  /* Pill Button */
+  .btn-primary {
+    @apply bg-mustard text-on-surface font-body font-semibold text-label-lg px-8 py-3 rounded-full transition-all duration-200 active:scale-95 hover:brightness-105 shadow-soft;
+  }
+
+  .btn-secondary {
+    @apply border-2 border-primary text-primary font-body font-semibold text-label-lg px-8 py-3 rounded-full transition-all duration-200 active:scale-95 hover:bg-primary/5;
+  }
+
+  .btn-ghost {
+    @apply text-on-surface-variant font-body text-label-lg px-6 py-3 rounded-full transition-all duration-200 active:scale-95 hover:bg-surface-container;
+  }
+
+  /* Input Fields */
+  .input-field {
+    @apply w-full bg-surface-container-low border-0 rounded-full px-6 py-4 text-body-md text-on-surface placeholder-on-surface-variant/60 outline-none transition-all duration-200 focus:ring-2 focus:ring-primary/40 focus:bg-surface-container-lowest;
+  }
+
+  /* Category Chips */
+  .chip-casual {
+    @apply bg-tertiary/10 text-tertiary text-label-xs px-3 py-1 rounded-full font-semibold;
+  }
+
+  .chip-smart {
+    @apply bg-secondary/10 text-secondary text-label-xs px-3 py-1 rounded-full font-semibold;
+  }
+
+  .chip-evening {
+    @apply bg-primary/10 text-primary text-label-xs px-3 py-1 rounded-full font-semibold;
+  }
+
+  /* Shimmer skeleton */
+  .shimmer {
+    background: linear-gradient(90deg, #efeeea 25%, #e4e2de 50%, #efeeea 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+
+  /* Scrollbar hidden */
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Mediterranean card shadow */
+  .med-shadow {
+    box-shadow: 0 10px 40px -10px rgba(74, 59, 40, 0.08);
+  }
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  user-select: none;
+}
+
+/* ── Animated auth panel gradient ── */
+@keyframes gradient-shift {
+  0%   { background-position: 0% 50%; }
+  25%  { background-position: 100% 0%; }
+  50%  { background-position: 100% 100%; }
+  75%  { background-position: 0% 100%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes blob-drift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%      { transform: translate(4%, -3%) scale(1.05); }
+  66%      { transform: translate(-3%, 4%) scale(0.95); }
+}
+
+@keyframes blob-drift-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%      { transform: translate(-4%, 3%) scale(0.95); }
+  66%      { transform: translate(3%, -4%) scale(1.05); }
+}
+
+.animated-auth-gradient {
+  background: linear-gradient(135deg,
+    #8B4A3C 0%,
+    #A8604A 33%,
+    #BF755C 66%,
+    #C97B5F 100%
+  );
+  background-size: 300% 300%;
+  animation: gradient-shift 20s ease-in-out infinite;
+  will-change: background-position;
+}
+
+.auth-text-shadow {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.animated-blob {
+  animation: blob-drift 25s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animated-blob:nth-child(2) {
+  animation-name: blob-drift-2;
+  animation-duration: 30s;
+  animation-delay: -8s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animated-auth-gradient,
+  .animated-blob {
+    animation: none;
+  }
+}
+
+/* Smooth page transitions */
+.page-enter {
+  animation: fadeIn 0.35s ease-out, slideUp 0.35s ease-out;
+}
