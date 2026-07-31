@@ -27,7 +27,8 @@ Charm lets you snap a photo of any garment or describe it in text, and an AI sty
 **Reimagine Creative Industries with AI** — Charm treats personal styling as a creative discipline and positions AI as a *creative partner*, not just a content generator: it collaborates with the user's existing wardrobe and taste rather than producing generic, one-size-fits-all suggestions.
 
 **Architecture**
-<img width="1106" height="513" alt="diagram-export-7-30-2026-12_50_50-PM" src="https://github.com/user-attachments/assets/3c905bad-87cd-4115-952e-02d924b5c84e" />
+<img width="1106" height="507" alt="diagram-export-7-31-2026-7_47_12-AM" src="https://github.com/user-attachments/assets/2a492add-4bbf-4e2f-bb1b-48551153d9c5" />
+
 
 *Key stack:*
 - **Frontend:** React + Vite, Firebase Auth & Firestore, i18next
