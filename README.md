@@ -38,3 +38,8 @@ Free-Form Fashio
 - **Search enrichment:** Serper.dev (Google Search API) for product links and images
 - **Auth:** Firebase (email/password + Google OAuth)
 - **Development tools:** IBM Bob, used as the primary tool for planning, building, and debugging the app end-to-end
+
+- **Selected challenge theme**
+Reimagine Creative Industries with AI because Personal styling is a creative act — but most people lack the tools to do it confidently. Charm reimagines styling by making AI a creative partner rather than a static generator: it reasons through color, silhouette, and occasion the way a human stylist would, collaborating with what you own instead of replacing your taste.
+**How bob was used**
+  Charm was built end-to-end using IBM Bob as our primary development tool. We used it to plan the application architecture — the chat interface, the closet data model, and the API routes — before writing any code. We used it to implement the core features directly: the image-upload and text-chat flows, the outfit and complement generation logic, the closet view, and the Serper-based product enrichment pipeline. We also relied on it heavily for debugging — tracing a chat-history persistence bug back to a stale state closure, and a UI flicker back to a Firestore sync race condition, both of which we fixed with its help. Bob was involved in essentially every stage of development, from architecture decisions through implementation to fixing the last bugs before submission.
